@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Gideons Organization</title>
+
+    <meta name="description" content="Connect with Gideons Organization in Western Kenya. Partner with us in providing education, farming, and care to over 820 children.">
+    <meta property="og:title" content="Contact Gideons Organization | Partner with Us">
+    <meta property="og:image" content="logo.jpg">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html" class="logo-link">
+                <img src="logo.jpg" alt="Gideons Logo" class="nav-logo">
+                <div class="brand-text">
+                    <span class="word-one">Gideons</span>
+                    <span class="word-two">Organization</span>
+                </div>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html#donate" class="btn-donate">Donate</a></li>
+        </ul>
+    </nav>
+
+    <section class="section">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <p>We welcome partners, volunteers, and visitors to our home in Western Kenya.</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-card">
+                <div class="contact-header">
+                    <h3>Send a Message</h3>
+                    <p>Tell us how you would like to get involved.</p>
+                </div>
+
+                <form action="https://formspree.io/f/myklykon" method="POST" class="gideons-form">
+                    <div class="input-box">
+                        <label>Full Name</label>
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label>Email Address</label>
+                        <input type="email" name="email" placeholder="email@example.com" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label>Nature of Interest</label>
+                        <select name="inquiry_type" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="Volunteer Opportunity">Volunteer Opportunity</option>
+                            <option value="Sustainability/Farming">Farming & Sustainability Projects</option>
+                            <option value="Partner/NGO Visit">NGO / Partner Visit</option>
+                            <option value="General Inquiry">General Inquiry</option>
+                        </select>
+                    </div>
+
+                    <div class="input-box">
+                        <label>Your Message</label>
+                        <textarea name="message" rows="5" placeholder="How can we partner together?" required></textarea>
+                    </div>
+
+                    <input type="hidden" name="_subject" value="New Inquiry: Gideons Website">
+                    <button type="submit" class="submit-btn">Submit Inquiry <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+
+            <div class="contact-details-sidebar">
+                <div class="info-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <div class="info-content">
+                        <h4>Our Location</h4>
+                        <p>Ramba-Kabondo, Homa Bay County, Kenya</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-phone-volume"></i>
+                    <div class="info-content">
+                        <h4>Call Us</h4>
+                        <p>0724 281188 | 0741 067333</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <div class="info-content">
+                        <h4>Email Us</h4>
+                        <p>okwanymoses3@gmail.com | newton_atela@yahoo.co.ku</p>
+                    </div>
+                </div>
+
+                <div class="map-frame">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15957.95486828859!2d34.9818!3d-0.4567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMjcnMjQuMSJTIDM0wrA1OCc1NC41IkU!5e0!3m2!1sen!2ske!4v1713192000000!5m2!1sen!2ske"
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="index.html">
+            <img src="logo.jpg" alt="Gideons Logo" class="footer-logo">
+        </a>
+        <p class="footer-brand">Gideons Organization</p>
+        <p class="footer-loc">Ramba, Kabondo, Homa Bay County, Kenya</p>
+        <div class="footer-line"></div>
+        <p class="footer-copy">© 2026 Gideons Organization. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
